@@ -1,0 +1,7 @@
+<v-app id="inspire">
+  <Toolbar v-if="show" @logout="logout"></Toolbar>
+  <v-content>
+    <router-view/>
+  </v-content>
+  <BottomNav v-if="show"></BottomNav>
+</v-app>
